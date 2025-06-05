@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishikigoi - tienda online</title>
+    <link rel="stylesheet" href="entrega.css">
+</head>
+<body>
+    <header>
+        <div><img src="multimedia/koi3.jpg" alt="logo.nishikigoi" width="50" height="60" ></div>
+        <div><h1>Nishikigoi</h1><br>
+        <h2>Los productos que querés</h2>
+        
+        </div>
+    </header>
+    <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#hacetupedido">Hacé tu pedido</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+    </nav>
+    <main>
+        <section id="inicio">
+
+            <p>
+                Productos personalizados a tu medida <br>
+                Entrá a nuestra sección de productos y enterate todo lo que podés hacer con nosotros.
+            </p>
+            <video controls poster="multimedia/img1.png" width="500" height="400"> <source src="multimedia/video.mp4" type="video/mp4"> Tu navegador no soporta la reproducción de video. </video>
+        </section>
+        <h2>Productos</h2>
+        <section id="productos">
+            
+            <div class="card">
+                <img src="multimedia/remera.jpg" alt="Remera básica a personalizar" width="100" height="100" />
+                <h3>Remera  personalizada</h3>
+                <p>Personalizá tu remera con la imagen o texto que elijas. Talles XS al XXXL.</p>
+            </div>
+            <div class="card">
+                <img src="multimedia/totebag.jpg" alt="Tote bag a personalizar" width="100" height="150" />
+                <h3>Tote bag personalizada</h3>
+                <p>Personalizá tu tote bag con la imagen o texto que elijas.</p>
+            </div>
+            <div class="card">
+                <img src="multimedia/taza.jpg" alt="Taza a personalizar" width="100" height="100"/>
+                <h3>Taza personalizada</h3>
+                <p>Personalizá tu taza con la imagen o texto que elijas.</p>
+            </div>
+            <div class="card">
+                <img src="multimedia/botella.jpg" alt="Botella a personalizar" width="100" height="100"/>
+                <h3>Botella personalizada</h3>
+                <p>Personalizá tu botella de 500ml con la imagen o texto que elijas.</p>
+            </div>
+        </section>
+
+        <section id="hacetupedido">
+            <h2>Hacé tu pedido</h2>
+            <form action="URL_de_destino" method="POST"> 
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribí tu nombre"> <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Escribí tu email"> <br>
+                <textarea rows="7" name="mensaje" id="mensaje"  cols="40%" placeholder="Hacé tu pedido indicando producto y cantidad. Nos comunicaremos a la brevedad a tu mail para pedirte tu diseño."></textarea> <br>
+                <button type="submit" value="Enviar">Enviar</button> 
+            </form>
+        </section>
+    </main>
+    <footer id="contacto">
+        ¿Tenés dudas? Hablanos a contacto@nishikigoi.com
+    </footer>
+    
+</body>
+</html>

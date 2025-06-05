@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    box-sizing: content-box;
+    margin: 10;
+    padding: 10;
+    
+}
+
+header {
+    background-color: #FE4738;
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+    list-style: none;
+    background-color: #FE4738;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+    background-color: #FE4738;
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+#inicio {
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+   
+    
+}
+ 
+.card {
+    width: 20%;    
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+     background-image: url(multimedia/koi2.jpg);
+}
+
+#hacetupedido {
+    background-color: #FE4738;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding-bottom: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Rubik, Verdana, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #FE4738;
+    padding: 5%;
+    text-align: center;
+    
+}
